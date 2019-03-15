@@ -1,0 +1,16 @@
+
+{
+    "font_face": "Consolas",
+    "font_true_type": true,
+    "font_size": "0x16",
+    "font_weight": 400,
+    "cursor_size": "small",
+    "window_size": "120x30",
+    "screen_buffer_size": "120x9999",
+    "command_history_length": 50,
+    "num_history_buffers": 4,
+    "quick_edit": true,
+    "insert_mode": true,
+    "fullscreen": false,
+    "load_console_IME": true
+}
