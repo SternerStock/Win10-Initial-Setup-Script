@@ -24,14 +24,14 @@ DisableCortana                  # EnableCortana
 # DisableBiometrics             # EnableBiometrics
 # DisableCamera                 # EnableCamera		
 DisableErrorReporting           # EnableErrorReporting
-SetP2PUpdateLocal             # SetP2PUpdateInternet          # SetP2PUpdateDisable
+SetP2PUpdateLocal               # SetP2PUpdateInternet          # SetP2PUpdateDisable
 DisableDiagTrack                # EnableDiagTrack
 DisableWAPPush                  # EnableWAPPush
 # EnableClearRecentFiles        # DisableClearRecentFiles
 # DisableRecentFiles            # EnableRecentFiles
 
 ### Security Tweaks ###
-SetUACLow                     # SetUACHigh
+SetUACLow                       # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
 DisableAdminShares              # EnableAdminShares
 # DisableSMB1                   # EnableSMB1
@@ -48,7 +48,7 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # DisableDefender               # EnableDefender
 # DisableDefenderCloud          # EnableDefenderCloud
 DisableCtrldFolderAccess        # EnableCtrldFolderAccess
-EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
+EnableCIMemoryIntegrity         # DisableCIMemoryIntegrity
 # EnableDefenderAppGuard        # DisableDefenderAppGuard
 HideAccountProtectionWarn       # ShowAccountProtectionWarn
 # DisableDownloadBlocking       # EnableDownloadBlocking
@@ -68,7 +68,7 @@ EnableUpdateMSProducts          # DisableUpdateMSProducts
 DisableMaintenanceWakeUp        # EnableMaintenanceWakeUp
 # DisableHomeGroups             # EnableHomeGroups
 DisableSharedExperiences        # EnableSharedExperiences
-EnableClipboardHistory        # DisableClipboardHistory
+EnableClipboardHistory          # DisableClipboardHistory
 DisableRemoteAssistance         # EnableRemoteAssistance
 EnableRemoteDesktop             # DisableRemoteDesktop
 DisableAutoplay                 # EnableAutoplay
@@ -90,12 +90,12 @@ EnableNTFSLongPaths             # DisableNTFSLongPaths
 
 ### UI Tweaks ###
 DisableActionCenter             # EnableActionCenter
-EnableLockScreen               # DisableLockScreen
+EnableLockScreen                # DisableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
 HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
 HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
-# DisableLockScreenBlur           # EnableLockScreenBlur
-DisableAeroShake              # EnableAeroShake
+# DisableLockScreenBlur         # EnableLockScreenBlur
+DisableAeroShake                # EnableAeroShake
 DisableAccessibilityKeys        # EnableAccessibilityKeys
 ShowTaskManagerDetails          # HideTaskManagerDetails
 ShowFileOperationsDetails       # HideFileOperationsDetails
@@ -103,40 +103,40 @@ ShowFileOperationsDetails       # HideFileOperationsDetails
 HideTaskbarSearch               # ShowTaskbarSearchIcon         # ShowTaskbarSearchBox
 HideTaskView                    # ShowTaskView
 ShowLargeTaskbarIcons           # ShowSmallTaskbarIcons
-SetTaskbarCombineAlways       # SetTaskbarCombineNever        # SetTaskbarCombineWhenFull
+SetTaskbarCombineAlways         # SetTaskbarCombineNever        # SetTaskbarCombineWhenFull
 HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
 ShowTrayIcons                   # HideTrayIcons
 DisableSearchAppInStore         # EnableSearchAppInStore
 DisableNewAppPrompt             # EnableNewAppPrompt
 # HideRecentlyAddedApps         # ShowRecentlyAddedApps
 # HideMostUsedApps              # ShowMostUsedApps
-SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
+SetControlPanelSmallIcons       # SetControlPanelLargeIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
 # HideShortcutArrow             # ShowShortcutArrow
-SetVisualFXAppearance          # SetVisualFXPerformance
-EnableTitleBarColor           # DisableTitleBarColor
-EnableDarkTheme               # DisableDarkTheme
+SetVisualFXAppearance           # SetVisualFXPerformance
+EnableTitleBarColor             # DisableTitleBarColor
+EnableDarkTheme                 # DisableDarkTheme
 # AddENKeyboard                 # RemoveENKeyboard
-EnableNumlock                 # DisableNumlock
+EnableNumlock                   # DisableNumlock
 # DisableEnhPointerPrecision    # EnableEnhPointerPrecision
 # SetSoundSchemeNone            # SetSoundSchemeDefault
 # DisableStartupSound           # EnableStartupSound
 # DisableChangingSoundScheme    # EnableChangingSoundScheme
-EnableVerboseStatus           # DisableVerboseStatus
+EnableVerboseStatus             # DisableVerboseStatus
 DisableF1HelpKey                # EnableF1HelpKey
 
 ### Explorer UI Tweaks ###
-ShowExplorerTitleFullPath     # HideExplorerTitleFullPath
+ShowExplorerTitleFullPath       # HideExplorerTitleFullPath
 ShowKnownExtensions             # HideKnownExtensions
 ShowHiddenFiles                 # HideHiddenFiles
 # ShowSuperHiddenFiles          # HideSuperHiddenFiles
-ShowEmptyDrives               # HideEmptyDrives
-ShowFolderMergeConflicts      # HideFolderMergeConflicts
-EnableNavPaneExpand             # DisableNavPaneExpand
-ShowNavPaneAllFolders         # HideNavPaneAllFolders
+ShowEmptyDrives                 # HideEmptyDrives
+ShowFolderMergeConflicts        # HideFolderMergeConflicts
+DisableNavPaneExpand            # EnableNavPaneExpand
+ShowNavPaneAllFolders           # HideNavPaneAllFolders
 # EnableFldrSeparateProcess     # DisableFldrSeparateProcess
 # EnableRestoreFldrWindows      # DisableRestoreFldrWindows
-ShowEncCompFilesColor         # HideEncCompFilesColor
+ShowEncCompFilesColor           # HideEncCompFilesColor
 # DisableSharingWizard          # EnableSharingWizard
 # HideSelectCheckboxes          # ShowSelectCheckboxes
 HideSyncNotifications           # ShowSyncNotifications
@@ -172,9 +172,9 @@ DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 ### Application Tweaks ###
 DisableOneDrive                 # EnableOneDrive
 UninstallOneDrive               # InstallOneDrive
-# UninstallMsftBloat              # InstallMsftBloat
+# UninstallMsftBloat            # InstallMsftBloat
 UninstallMsftBloatCustom
-# UninstallThirdPartyBloat        # InstallThirdPartyBloat
+# UninstallThirdPartyBloat      # InstallThirdPartyBloat
 UninstallThirdPartyBloatCustom
 # UninstallWindowsStore         # InstallWindowsStore
 DisableXboxFeatures             # EnableXboxFeatures
@@ -185,7 +185,7 @@ DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
 DisableIEFirstRun               # EnableIEFirstRun
 DisableFirstLogonAnimation      # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
-UninstallMediaPlayer          # InstallMediaPlayer
+UninstallMediaPlayer            # InstallMediaPlayer
 # UninstallInternetExplorer     # InstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
 # UninstallPowerShellV2         # InstallPowerShellV2
