@@ -37,7 +37,7 @@ function UninstallThirdPartyBloatCustom {
 	Get-AppxPackage "2414FC7A.Viber" | Remove-AppxPackage
 	Get-AppxPackage "41038Axilesoft.ACGMediaPlayer" | Remove-AppxPackage
 	Get-AppxPackage "46928bounde.EclipseManager" | Remove-AppxPackage
-	# Get-AppxPackage "4DF9E0F8.Netflix" | Remove-AppxPackage
+	#Get-AppxPackage "4DF9E0F8.Netflix" | Remove-AppxPackage
 	Get-AppxPackage "64885BlueEdge.OneCalendar" | Remove-AppxPackage
 	Get-AppxPackage "7EE7776C.LinkedInforWindows" | Remove-AppxPackage
 	Get-AppxPackage "828B5831.HiddenCityMysteryofShadows" | Remove-AppxPackage
@@ -53,7 +53,7 @@ function UninstallThirdPartyBloatCustom {
 	Get-AppxPackage "AdobeSystemsIncorporated.AdobePhotoshopExpress" | Remove-AppxPackage
 	Get-AppxPackage "Amazon.com.Amazon" | Remove-AppxPackage
 	Get-AppxPackage "C27EB4BA.DropboxOEM" | Remove-AppxPackage
-	# Get-AppxPackage "CAF9E577.Plex" | Remove-AppxPackage
+	#Get-AppxPackage "CAF9E577.Plex" | Remove-AppxPackage
 	Get-AppxPackage "CyberLinkCorp.hs.PowerMediaPlayer14forHPConsumerPC" | Remove-AppxPackage
 	Get-AppxPackage "D52A8D61.FarmVille2CountryEscape" | Remove-AppxPackage
 	Get-AppxPackage "D5EA27B7.Duolingo-LearnLanguagesforFree" | Remove-AppxPackage
@@ -71,9 +71,9 @@ function UninstallThirdPartyBloatCustom {
 	Get-AppxPackage "king.com.CandyCrushSodaSaga" | Remove-AppxPackage
 	Get-AppxPackage "king.com.FarmHeroesSaga" | Remove-AppxPackage
 	Get-AppxPackage "Nordcurrent.CookingFever" | Remove-AppxPackage
-	# Get-AppxPackage "PandoraMediaInc.29680B314EFC2" | Remove-AppxPackage
+	#Get-AppxPackage "PandoraMediaInc.29680B314EFC2" | Remove-AppxPackage
 	Get-AppxPackage "PricelinePartnerNetwork.Booking.comBigsavingsonhot" | Remove-AppxPackage
-	# Get-AppxPackage "SpotifyAB.SpotifyMusic" | Remove-AppxPackage
+	#Get-AppxPackage "SpotifyAB.SpotifyMusic" | Remove-AppxPackage
 	Get-AppxPackage "ThumbmunkeysLtd.PhototasticCollage" | Remove-AppxPackage
 	Get-AppxPackage "WinZipComputing.WinZipUniversal" | Remove-AppxPackage
 	Get-AppxPackage "XINGAG.XING" | Remove-AppxPackage
@@ -108,7 +108,7 @@ Function UninstallMsftBloatCustom {
 	Get-AppxPackage "Microsoft.MinecraftUWP" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MixedReality.Portal" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MoCamera" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.MSPaint" | Remove-AppxPackage
+	#Get-AppxPackage "Microsoft.MSPaint" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.NetworkSpeedTest" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.OfficeLens" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Office.OneNote" | Remove-AppxPackage
@@ -117,7 +117,7 @@ Function UninstallMsftBloatCustom {
 	Get-AppxPackage "Microsoft.People" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Print3D" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Reader" | Remove-AppxPackage
-	# Get-AppxPackage "Microsoft.RemoteDesktop" | Remove-AppxPackage
+	#Get-AppxPackage "Microsoft.RemoteDesktop" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.SkypeApp" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Todos" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Wallet" | Remove-AppxPackage
@@ -125,7 +125,7 @@ Function UninstallMsftBloatCustom {
 	Get-AppxPackage "Microsoft.Whiteboard" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsAlarms" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsCamera" | Remove-AppxPackage
-	# Get-AppxPackage "microsoft.windowscommunicationsapps" | Remove-AppxPackage
+	#Get-AppxPackage "microsoft.windowscommunicationsapps" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsFeedbackHub" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsMaps" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsPhone" | Remove-AppxPackage
@@ -138,5 +138,5 @@ Function UninstallMsftBloatCustom {
 	Get-AppxPackage "Microsoft.YourPhone" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.ZuneMusic" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.ZuneVideo" | Remove-AppxPackage
-	# Get-AppxPackage "Microsoft.Advertising.Xaml" | Remove-AppxPackage # Dependency for microsoft.windowscommunicationsapps, Microsoft.BingWeather
+	#Get-AppxPackage "Microsoft.Advertising.Xaml" | Remove-AppxPackage # Dependency for microsoft.windowscommunicationsapps, Microsoft.BingWeather
 }
