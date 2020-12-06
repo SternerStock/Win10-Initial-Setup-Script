@@ -60,7 +60,6 @@ function UninstallThirdPartyBloatCustom {
 	Get-AppxPackage "DB6EA5DB.CyberLinkMediaSuiteEssentials" | Remove-AppxPackage
 	Get-AppxPackage "DolbyLaboratories.DolbyAccess" | Remove-AppxPackage
 	Get-AppxPackage "Drawboard.DrawboardPDF" | Remove-AppxPackage
-	Get-AppxPackage "E046963F.LenovoCompanion" | Remove-AppxPackage
 	Get-AppxPackage "Facebook.Facebook" | Remove-AppxPackage
 	Get-AppxPackage "Fitbit.FitbitCoach" | Remove-AppxPackage
 	Get-AppxPackage "flaregamesGmbH.RoyalRevolt2" | Remove-AppxPackage
@@ -70,8 +69,7 @@ function UninstallThirdPartyBloatCustom {
 	Get-AppxPackage "king.com.CandyCrushFriends" | Remove-AppxPackage
 	Get-AppxPackage "king.com.CandyCrushSaga" | Remove-AppxPackage
 	Get-AppxPackage "king.com.CandyCrushSodaSaga" | Remove-AppxPackage
-	Get-AppxPackage "LenovoCorporation.LenovoID" | Remove-AppxPackage
-	Get-AppxPackage "LenovoCorporation.LenovoSettings" | Remove-AppxPackage
+	Get-AppxPackage "king.com.FarmHeroesSaga" | Remove-AppxPackage
 	Get-AppxPackage "Nordcurrent.CookingFever" | Remove-AppxPackage
 	# Get-AppxPackage "PandoraMediaInc.29680B314EFC2" | Remove-AppxPackage
 	Get-AppxPackage "PricelinePartnerNetwork.Booking.comBigsavingsonhot" | Remove-AppxPackage
